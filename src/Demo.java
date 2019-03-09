@@ -117,33 +117,88 @@
 //        System.out.println("Please remember:"+super.getDesc());
 //    }
 //}
-
-public class Demo{
-    public static void main(String[] args){
-        Cat lala=new Cat("花花",3);
-        lala.said();
-    }
-}
-
-class Animal{
-    String name;
-    public Animal(String name){
-        this.name=name;
-    }
-    public void claim(){
-        System.out.println("试试看");
-    }
-}
-
-class Cat extends Animal{
-    int age;
-    public Cat(String name,int age){
-        super(name);
-        this.age=age;
-
-    }
-    public void said(){
-        super.claim();
-        System.out.println("我是一只可爱的小猫");
-    }
-}
+//
+//public class Demo{
+//    public static void main(String[] args){
+//        Cat lala=new Cat("花花",3);
+//        lala.said();
+//    }
+//}
+//
+//class Animal{
+//    String name;
+//    public Animal(String name){
+//        this.name=name;
+//    }
+//    public void claim(){
+//        System.out.println("试试看");
+//    }
+//}
+//
+//class Cat extends Animal{
+//    int age;
+//    public Cat(String name,int age){
+//        super(name);
+//        this.age=age;
+//
+//    }
+//    public void said(){
+//        super.claim();
+//        System.out.println("我是一只可爱的小猫");
+//    }
+//}
+//
+//public final class Demo{
+//    public static void main(String[] args){
+//        //引用people实例
+//        People1 obj=new People1();
+//        if (obj instanceof Object){
+//            System.out.println("我是一个对象");
+//        }
+//        if (obj instanceof People1) {
+//            System.out.println("我是人类");
+//        }
+//        if (obj instanceof President){
+//            System.out.println("我是校长");
+//        }
+//
+//        System.out.println("--------------------");
+//
+//
+//    }
+//}
+//
+//class People1{}
+//class Teacher1 extends People1{}
+//class President extends Teacher1{}
+//
+//public class Demo{
+//    public static void main(String[] args){
+//        Outer outer=new Outer();
+//        Outer.Inner inner=outer.new Inner();
+//        inner.dostuff();
+//    }
+//}
+//class Outer{
+//    private int size;
+//    class Inner{
+//        public void dostuff(){
+//            size++;
+//        }
+//    }
+//}
+//public class Demo{
+//    public static void main(String[] args){
+//        test123 test345=new test123();
+//        test123.Inner test789=test345.new Inner();
+//        test789.tttt();
+//    }
+//}
+//class test123{
+//    private int a;
+//    class Inner{
+//        public void tttt(){
+//            a++;
+//        }
+//    }
+//}

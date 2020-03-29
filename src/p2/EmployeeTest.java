@@ -1,10 +1,12 @@
 package p2;
+
 import p1.Employee;
+
 public class EmployeeTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //创建两个对象
-        Employee empOne=new Employee("James Smith");
-        Employee empTwo=new Employee("Mary Anne");
+        Employee empOne = new Employee("James Smith");
+        Employee empTwo = new Employee("Mary Anne");
 
         //调用这两个对象的方法
         empOne.empAge(26);

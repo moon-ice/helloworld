@@ -8,8 +8,8 @@ public class Dog {
     //这里的Dog是类的构造方法，有了它就能创建对象，并且能够自动执行使它的实例初始化！~啊哈
     Dog(String name1, int age1) {
         System.out.println("感谢主任领养了我");
-        name =name1;
-        age =age1;
+        name = name1;
+        age = age1;
     }
 
 
@@ -21,7 +21,7 @@ public class Dog {
         System.out.println("主人，我饿了！");
     }
 
-    public static void main(String arg[]){
+    public static void main(String arg[]) {
 
         //包的调用第一种方法：用完整的包名
 //        java.util.Date today=new java.util.Date();

@@ -202,7 +202,7 @@
 //        }
 //    }
 //}
- //import static java.lang.System.*;
+//import static java.lang.System.*;
 //
 //public final class Demo{
 //    public static void main(String[] args){
@@ -425,32 +425,44 @@
 //        return this.var;
 //    }
 //}
+//
+//
+//public class Demo{
+//    public static void main(String[] args){
+//        Point p=new Point();
+//        p.setX(10);
+//        p.setY(20.8);
+//        int x=(Integer)p.getX();
+//        double y=(Double)p.getY();
+//        System.out.println("This point is: "+x+" "+y);
+//    }
+//}
+//
+//class Point<T1,T2>{
+//    T1 x;
+//    T2 y;
+//    public T1 getX(){
+//        return x;
+//    }
+//    public void setX(T1 x){
+//        this.x=x;
+//    }
+//    public T2 getY(){
+//        return y;
+//    }
+//    public void setY(T2 y){
+//        this.y=y;
+//    }
+//}
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 
-public class Demo{
-    public static void main(String[] args){
-        Point p=new Point();
-        p.setX(10);
-        p.setY(20.8);
-        int x=(Integer)p.getX();
-        double y=(Double)p.getY();
-        System.out.println("This point is: "+x+" "+y);
-    }
-}
+public class Demo {
+    public static void main(String args[]) {
 
-class Point<T1,T2>{
-    T1 x;
-    T2 y;
-    public T1 getX(){
-        return x;
-    }
-    public void setX(T1 x){
-        this.x=x;
-    }
-    public T2 getY(){
-        return y;
-    }
-    public void setY(T2 y){
-        this.y=y;
+        int num = 2147483647;
+        long temp = num + 2L;
+        System.out.println(num);
     }
 }

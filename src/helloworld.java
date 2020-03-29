@@ -396,3 +396,87 @@
 //        }
 //    }
 //}
+
+import java.util.Scanner;
+
+public class helloworld {
+    public static void main(String[] args) {
+//        System.out.println("第一题：");
+//        System.out.println("please enter an integer:");
+//        Scanner s = new Scanner(System.in);
+//        int number1 = s.nextInt();
+//        if(number1%2==0)System.out.println("The integer is 偶数");
+//        else System.out.println("The integer is 奇数");
+
+//        System.out.println("第二题");
+//        long sum=1;
+//        for(int i=1;i<=20;i++){
+//            sum*=i;
+//            System.out.println(sum);
+//        }
+
+//        System.out.println("第三题");
+//        int sum1=1,sum=0;
+//        for(int i=1;i<=20;i++){
+//            sum1*=i;
+//            sum+=sum1;
+//            System.out.println(sum);
+//        }
+//        System.out.println(sum);
+
+//        System.out.println("第四题：");
+//        Scanner s = new Scanner(System.in);
+//        int temp;
+//        System.out.println("a:");
+//        int a = s.nextInt();
+//        System.out.println("b:");
+//        int b = s.nextInt();
+//        System.out.println("c:");
+//        int c = s.nextInt();
+//        if(a>b){
+//            temp = a;
+//            a = b;
+//            b = temp;
+//        }
+//        if(a>c){
+//            temp = a;
+//            a = c;
+//            c = temp;
+//        }
+//        if(b>c){
+//            temp = b;
+//            b = c;
+//            c = temp;
+//        }
+//        System.out.println(a+" "+b+" "+c);
+
+//        System.out.println("第五题：");
+//        System.out.println("please enter a char:");
+//        Scanner s = new Scanner(System.in);
+//        String a = s.next();
+//        if()
+
+//        System.out.println("第六题：");
+//        Scanner s =new Scanner(System.in);
+//        int a = s.nextInt();
+//        if(a>=0&&a<=59)System.out.println("不及格");
+//        else if(a>=60&&a<=69)System.out.println("及格");
+//        else if(a>=70&&a<=79)System.out.println("中等");
+//        else if(a>=80&&a<=89)System.out.println("良好");
+//        else if(a>=90&&a<=100)System.out.println("优秀");
+//        else System.out.println("成绩有误");
+
+//        System.out.println("第七题：");
+//        int i=1,sum=0;
+//        while(i<=200){
+//            if(i%3==0)sum+=i;
+//            i++;
+//        }
+//        System.out.println(sum);
+
+//        System.out.println("第八题：");
+//        for(int i=200;i<=500;i++){
+//
+//        }
+    }
+}

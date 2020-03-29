@@ -1,3 +1,5 @@
+package demo1;
+
 //这里也是list2
 //java包的第二种方法调用：import导入
 //import java.util.Date;
